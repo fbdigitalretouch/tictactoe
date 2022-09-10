@@ -1,6 +1,15 @@
-<h1>Current Player: {{ player }} </h1>
+<div class="titleContainer">
+    <h1>Current Player: {{ player }} </h1>
+</div>
 
-<button (click)="newGame()">Start new Game</button>
+
+
+<div class="btncontainer">
+
+<button class="btnStart" (click)="newGame()">Start new Game</button>
+
+</div>
+
 
 
 <h2 *ngIf="winner">
