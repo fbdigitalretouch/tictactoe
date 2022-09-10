@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.x{
+    color: coral;
+    background-color: darkcyan;
+    border: none;
+}
+
+.o{
+    color: mediumslateblue;
+    background-color: burlywood;
+    border: none;
+}
+
+.still{
+    border: 1px solid rgba(255, 255, 255, 0.144);
+    background-color: rgb(60, 160, 160);
+}
+
+.still:hover{
+    background-color: rgb(80, 211, 211);
+}
